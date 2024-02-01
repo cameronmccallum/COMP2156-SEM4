@@ -1,8 +1,8 @@
-`
+---
 language: node_js
 node_js:
-  - "stable"
- dist: focal
+  - stable
+dist: focal
 deploy:
   provider: pages
   skip_cleanup: true
@@ -10,4 +10,3 @@ deploy:
   local_dir: build
   on:
     branch: main
-`
